@@ -1,8 +1,8 @@
-# 🛍️ NLP-Based Clothing Recommendation System
+# NLP-Based Clothing Recommendation System
 
 This project showcases a complete pipeline for building a Natural Language Processing (NLP)-powered recommendation system using real-world customer reviews from an online clothing retailer. The system is capable of predicting whether a product will be recommended by a customer based on their review, using multiple text classification approaches.
 
-## 🔍 Project Overview
+## Project Overview
 
 E-commerce platforms increasingly rely on product reviews and recommendation systems to personalize customer experiences and improve sales. This project leverages natural language processing to pre-process customer reviews, extract meaningful insights, and classify whether a product is likely to be recommended.
 
@@ -14,7 +14,7 @@ The project is divided into three main components:
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The dataset used contains approximately 19,600 women’s clothing reviews, including the following key fields:
 
@@ -26,7 +26,7 @@ The dataset used contains approximately 19,600 women’s clothing reviews, inclu
 
 ---
 
-## 🧹 1. Text Pre-processing
+##  1. Text Pre-processing
 
 The first stage of the project focuses on cleaning and preparing the raw review text:
 
@@ -39,14 +39,14 @@ The first stage of the project focuses on cleaning and preparing the raw review 
   * Words appearing only once in the corpus
   * Top 20 most frequent words by document frequency
 
-### ✅ Output
+###  Output
 
 * `processed.csv`: Cleaned review data
 * `vocab.txt`: Alphabetically sorted vocabulary with index mappings (`word:index` format)
 
 ---
 
-## 📊 2. Feature Representation
+## 2. Feature Representation
 
 This stage involves transforming the pre-processed reviews into numerical representations suitable for machine learning models:
 
@@ -58,13 +58,13 @@ This stage involves transforming the pre-processed reviews into numerical repres
   * Unweighted average vectors
   * TF-IDF weighted average vectors
 
-### ✅ Output
+### Output
 
 * `count_vectors.txt`: Sparse matrix representation of BoW features (`index:freq` format per line)
 
 ---
 
-## 🤖 3. Review Classification
+##  3. Review Classification
 
 Machine learning models are built to classify whether a review recommends a product:
 
@@ -91,7 +91,7 @@ Machine learning models are built to classify whether a review recommends a prod
 ## 📂 Project Structure
 
 ```
-📦 NLP-Clothing-Recommendation
+ NLP-Clothing-Recommendation
 │
 ├── data/
 │   ├── reviews.csv
@@ -115,7 +115,7 @@ Machine learning models are built to classify whether a review recommends a prod
 
 ---
 
-## 💡 Key Skills Demonstrated
+##  Key Skills Demonstrated
 
 * Natural Language Preprocessing
 * Feature Engineering for Text Data
@@ -126,7 +126,7 @@ Machine learning models are built to classify whether a review recommends a prod
 
 ---
 
-## 📌 Dependencies
+##  Dependencies
 
 * Python 3.8+
 * Jupyter Notebook
@@ -143,7 +143,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📈 Results & Insights
+##  Results & Insights
 
 The analysis explores:
 
@@ -153,7 +153,7 @@ The analysis explores:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Integrating this NLP model with a web-based interface for live product recommendations
 * Fine-tuning transformer models like BERT for better accuracy
@@ -161,9 +161,8 @@ The analysis explores:
 
 ---
 
-## 📬 Contact
+##  Contact
 
 For questions, suggestions, or collaboration opportunities, feel free to reach out via GitHub Issues or email.
 
----
 
